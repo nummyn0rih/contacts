@@ -19,6 +19,11 @@ export const MainApp = () => {
   ]);
   const groupContactsState = useState<GroupContactsDto[]>(DATA_GROUP_CONTACT);
 
+  console.log('Main App - contactsState => ', contactsState)
+  console.log('Main App - favoriteContactsState => ', favoriteContactsState)
+  console.log('Main App - groupContactsState => ', groupContactsState)
+
+
   return (
     <ThemeProvider
       breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
